@@ -1,0 +1,80 @@
+.slider {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider .slider_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12rem 0 2rem 0;
+}
+.slider .slider_bottom {
+    position: relative;
+    height: 100%;
+}
+.slider .slider_name {
+    z-index: 1;
+}
+.slider .slider_name .first_name,
+.slider .slider_name .last_name {
+    font-family: 'Qarkine';
+    font-size: 5.6rem;
+    text-align: right;
+}
+.slider .slider_name .first_name {
+    position: relative;
+    left: -50px;
+}
+.slider .slider_name .last_name {
+    position: relative;
+    right: -18px;
+    margin-top: 8px;
+}
+.slider .slider_bottom .container-marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #1E1E1E;
+    width: 100vw;
+    position: relative;
+    left: var(--ignore-margin);
+    bottom: -2rem;
+    z-index: 2;
+}
+.slider .slider_bottom .marquee {
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 0;
+  }
+
+  
+.slider .slider_bottom .marquee span {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+.slider .container_pastille {
+    position: absolute;
+    left: 30px;
+    top: 18rem;
+}
+.slider .container_pastille svg {
+    width: 9rem;
+    height: 9rem;
+}
+.slider .container_pastille svg circle {
+    fill: #ffc300;
+}
+.slider .container_pastille svg text {
+    font-size: 20px;
+    font-family: Franklin Gothic, sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.slider .slider_mockup {
+    z-index: 2;
+}

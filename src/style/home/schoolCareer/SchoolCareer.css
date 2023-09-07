@@ -1,0 +1,8 @@
+.school_career {
+    position: relative;
+    min-height: 100vh;
+}
+.school_career h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}

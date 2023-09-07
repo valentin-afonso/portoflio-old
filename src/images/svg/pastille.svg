@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+    <title>Développeur webo</title>
+<defs>
+
+    <path d="M243.2, 382.4c-74.8, 0-135.5-60.7-135.5-135.5s60.7-135.5,135.5-135.5s135.5, 60.7, 135.5, 135.5 S318, 382.4, 243.2, 382.4z" id="textcircle"/>
+</defs> 
+<circle cx="250" cy="250" r="250" fill="#067655" id="background" />
+    <text dy="250" dx="250" textLength="500">
+        <textPath xlink:href="#textcircle">
+            Développeur web
+        </textPath>
+    </text>
+</svg>
+
+<!-- 
+
+    <path
+    d="
+      M (CX - R), CY
+      a R,R 0 1,0 (R * 2),0
+      a R,R 0 1,0 -(R * 2),0
+    "
+/>
+-->

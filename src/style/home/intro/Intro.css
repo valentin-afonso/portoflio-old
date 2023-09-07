@@ -1,0 +1,27 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.intro .card {
+    position: relative;
+    max-width: 40.5rem;
+    width: 40.5rem;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 4.6rem 3.7rem;
+    margin: 2rem 0;
+}
+.intro .card .img_profil{
+    border-radius: 100%;
+    position: absolute;
+    top: -2rem;
+    left: 1.5rem;
+}
+
+.intro .card .content_text {
+    text-align: right;
+    max-width: 26rem;
+    margin-left: auto;
+}

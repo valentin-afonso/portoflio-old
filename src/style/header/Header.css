@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.2rem 0;
+    z-index: 999;
+    /*
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    */
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 25px;
+    transition: all .4s;
+}
+
+#content-page.dark .header {
+    /*
+    background-color: rgba(0, 0, 0, .5);
+    */
+    background-color: #272727;
+    box-shadow: none;
+}

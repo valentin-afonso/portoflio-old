@@ -1,0 +1,43 @@
+.page_projects h1 {
+    margin-bottom: 4rem;
+}
+.page_projects > .content,
+.page_projects .container {
+    position: relative;
+    cursor: none;
+}
+
+.page_projects #customized-cursor {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .8);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: .7rem;
+    text-transform: uppercase;
+    z-index: 999;
+    overflow: hidden;
+    pointer-events: none;
+}
+.page_projects .container:hover #customized-cursor {
+    display: flex;
+}
+
+.page_projects .link.secondary {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    flex-direction: row-reverse;
+}
+.page_projects .link.secondary svg.svg_arrow {
+    margin-left: 0;
+    margin-right: 8px;
+    transform: rotate(180deg);
+}

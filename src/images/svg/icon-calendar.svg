@@ -1,0 +1,8 @@
+<svg className="icon_calendar" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.6071 40.25H9.58333C8.56667 40.25 7.59165 39.8461 6.87276 39.1273C6.15387 38.4084 5.75 37.4333 5.75 36.4167V13.4167C5.75 12.4 6.15387 11.425 6.87276 10.7061C7.59165 9.98721 8.56667 9.58334 9.58333 9.58334H32.5833C33.6 9.58334 34.575 9.98721 35.2939 10.7061C36.0128 11.425 36.4167 12.4 36.4167 13.4167V21.0833" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M34.5 42.1667C36.5334 42.1667 38.4834 41.3589 39.9212 39.9212C41.359 38.4834 42.1667 36.5333 42.1667 34.5C42.1667 32.4667 41.359 30.5166 39.9212 29.0789C38.4834 27.6411 36.5334 26.8333 34.5 26.8333C32.4667 26.8333 30.5167 27.6411 29.0789 29.0789C27.6411 30.5166 26.8334 32.4667 26.8334 34.5C26.8334 36.5333 27.6411 38.4834 29.0789 39.9212C30.5167 41.3589 32.4667 42.1667 34.5 42.1667Z" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M28.75 5.75V13.4167" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.4166 5.75V13.4167" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5.75 21.0833H36.4167" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M34.5 31.6097V34.4923L36.4167 36.409" stroke="black" strokeWidth="1.91667" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>

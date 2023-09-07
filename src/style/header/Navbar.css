@@ -1,0 +1,9 @@
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul li a {
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 1.15rem;
+}

@@ -1,0 +1,99 @@
+.mockup {
+    --red-code: #d7264e;
+    --white-code: #fff;
+    --green-code: #a0d62a;
+    --yelow-code: #e2c35a;
+    --purple-code: #ac80ff;
+    --bg-code: #1E1E1E;
+    --desktop-color: #f9fcff;
+    position: relative;
+}
+.mockup .mockup_top {
+    padding: 15px 12px 40px 12px;
+    background-color: var(--desktop-color);
+    border-radius: 17px 17px 0 0;
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 0px 25px;
+}
+.mockup .mockup_bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -6rem;
+    z-index: -1;
+}
+.mockup_screen {
+    min-width: 600px;
+    overflow: hidden;
+}
+.mockup_header {
+    padding: 8px 10px;
+    background-color: var(--white-code);
+    display: none;
+}
+.mockup_header ul {
+    display: flex;
+    margin: 0;
+}
+.mockup_header ul li {
+    margin-right: 5px;
+}
+.mockup_header ul li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+.mockup_header ul li span.btn_close {
+    background-color: #FF4848;
+}
+.mockup_header ul li span.btn_reduce {
+    background-color: #FFAD33;
+}
+.mockup_header ul li span.btn_extend {
+    background-color: #60E555;
+}
+.mockup_screen .mockup_body {
+    position: relative;
+    background-color: var(--bg-code);
+    padding: 2rem;
+}
+.mockup_screen .mockup_body::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 10%;
+    width: 8px;
+    background-color: rgba(255, 255, 255, .2);
+}
+.mockup_screen .code {
+    position: relative;
+    color: var(--white-code);
+}
+.mockup_screen .code::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -12px;
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, .2);
+}
+.mockup_screen .code .red {
+    color: var(--red-code);
+}
+.mockup_screen .code .green {
+    color: var(--green-code);
+}
+.mockup_screen .code .yelow {
+    color: var(--yelow-code);
+}
+.mockup_screen .code .purple {
+    color: var(--purple-code);
+}
+.mockup_screen .code .ml-1 {
+    margin-left: 1rem;
+}
+.mockup_screen .code .ml-2 {
+    margin-left: 2rem;
+}

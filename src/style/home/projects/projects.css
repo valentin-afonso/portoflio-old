@@ -1,0 +1,52 @@
+.projects {
+    position: relative;
+    min-height: 100vh;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    overflow: hidden;
+}
+#content-page.dark .projects > .container {
+    cursor: none;
+}
+.projects h2 {
+    text-align: center;
+    padding-bottom: 1rem;   
+}
+.projects .text_intro {
+    text-align: center;
+    padding: 1rem 0 4rem 0;
+    max-width: 35rem;
+    margin: auto;
+}
+.projects .link {
+    margin-top: 2rem;
+}
+/*
+.homepage.dark .projects .text_intro {
+    color: rgba(255, 255, 255, .7);
+}
+*/
+
+.projects #customized-cursor {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .8);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: .7rem;
+    text-transform: uppercase;
+    z-index: 999;
+    overflow: hidden;
+    pointer-events: none;
+}
+.projects > .container:hover #customized-cursor {
+    display: flex;
+}
