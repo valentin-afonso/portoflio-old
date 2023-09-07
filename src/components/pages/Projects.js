@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { gsap } from "gsap";
-import { Link } from 'react-router-dom';
 import LinkSecondary from "../LinkSecondary"
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import "../../style/pages/Projects.css"

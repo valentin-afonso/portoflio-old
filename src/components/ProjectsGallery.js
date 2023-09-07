@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect } from "react";
-import { gsap } from "gsap";
 import { Link } from 'react-router-dom';
 import '../style/home/projects/projectsGallery.css'
 import ImgSwalkers from '../images/projets/swalkers.jpg'
