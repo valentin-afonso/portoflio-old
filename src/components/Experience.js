@@ -55,6 +55,20 @@ export default function Experience(props) {
         15: "Contao",
         16: "Prestashop"
       }
+
+      var skills = {
+        1: "Collaboration",
+        2: "Ouverture d'esprit",
+        3: "Professionnalisme",
+        4: "Autonomie/Autodidacte",
+        5: "Organisation/Gestion du temps",
+        6: "Pédégoge",
+        7: "Méthodologie",
+        8: "Adaptabilité",
+        9: "Communication",
+        10: "Pensée critique",
+        11: "Créativité"
+      }
   return (
     <div className={`experience ${props.className}`}>
         <div className='content_left'>
@@ -71,9 +85,9 @@ export default function Experience(props) {
                 <div className='progress'>
                     <h3>Skills</h3>
                     <ul>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
+                    {props.skill.map(skill => (
+                        <li key={skill}>{skills[skill]}</li>
+                    ))}
                     </ul>
                 </div>
                 <div className='langages'>

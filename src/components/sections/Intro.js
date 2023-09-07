@@ -12,11 +12,16 @@ export default function Intro() {
                     <img src={imgProfil} className='img_profil' alt='valentin afonso' width='146' height='146'/>
                 </figure>
                 <div className='content_text'>
-                J'ai 23 ans et je suis actuellement en train de suivre un Master en Développement Web. 
-                Mon domaine de spécialisation est principalement orienté vers le front-end, 
-                mais je suis ouvert à explorer d'autres aspects du développement web, comme le back-end, 
-                l'UX/UI, et bien plus encore. En ce moment, je suis particulièrement motivé à approfondir mes 
-                connaissances en React, un framework qui m'attire beaucoup.
+                    <p>
+                        Valentin Afonso <br /> 
+                        23 ans <br /> 
+                        Master en Développement Web<br /> 
+                        Mon domaine de spécialisation est principalement orienté vers le front-end, 
+                        mais je suis ouvert à explorer d'autres aspects du développement web, comme le back-end, 
+                        l'UX/UI, et bien plus encore.<br /> 
+                        En ce moment, je suis particulièrement motivé à approfondir mes 
+                        connaissances en React, un framework qui m'attire beaucoup.
+                    </p>
                 </div>
             </div>
         </div>

@@ -7,7 +7,10 @@ import ImgSib from '../../images/experience/bg-sib.jpg'
 import ImgFleurymichon from '../../images/experience/bg-fleurymichon.png' 
 
 export default function ExperciencePro() {
-  var skillKline = [1,2,3];
+  var skillSib = [4];
+  var skillFleurymichon = [3,4];
+  var skillKline = [1,2,3,4,7];
+  var skillUpmotion = [1,2,3,4,5,6,8,9,10,11];
   var techSib = [4,5];
   var techFleurymichon = [4,5,12,13];
   var techKline = [2,3,4,5,13,14];
@@ -69,8 +72,8 @@ export default function ExperciencePro() {
         duree="1mois"
         status="Stage"
         title="Développement SIB"
-        description="..."
-        skill={skillKline}
+        description="Développement d'application sur Windev et développement front-end HTML / CSS"
+        skill={skillSib}
         langages={techSib}
         className={activeBullet === 0 ? 'js-active' : ''}
       />
@@ -80,8 +83,8 @@ export default function ExperciencePro() {
         duree="1mois"
         status="Stage"
         title="Développement web Fleury Michon"
-        description="..."
-        skill={skillKline}
+        description="Développement front-end Sur le CMS Drupal."
+        skill={skillFleurymichon}
         langages={techFleurymichon}
         className={activeBullet === 1 ? 'js-active' : ''}
       />
@@ -91,7 +94,7 @@ export default function ExperciencePro() {
         duree="1an"
         status="Alternance"
         title="Développement web K.Line"
-        description="Développement du site pro de K.Line & projet de développement d'application mobile"
+        description="Développement du site pro de K.Line  sur le CMS Drupal & projet de développement d'application mobile sur le framework Ionic"
         skill={skillKline}
         langages={techKline}
         className={activeBullet === 2 ? 'js-active' : ''}
@@ -102,8 +105,8 @@ export default function ExperciencePro() {
         duree="2an"
         status="Alternance"
         title="Développement web Upmotion"
-        description="Développement de site web au sein de l'agence Upmotion"
-        skill={skillKline}
+        description="Développement de site web au sein de l'agence Upmotion. Nottament sous le CMS Contao et Prestashop"
+        skill={skillUpmotion}
         langages={techUpmotion}
         className={(activeBullet === 3 || activeBullet === 4 || activeBullet === 5) ? 'js-active' : ''}
       />
