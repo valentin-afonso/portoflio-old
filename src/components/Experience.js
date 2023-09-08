@@ -62,7 +62,7 @@ export default function Experience(props) {
         3: "Professionnalisme",
         4: "Autonomie/Autodidacte",
         5: "Organisation/Gestion du temps",
-        6: "Pédégoge",
+        6: "Pédégogue",
         7: "Méthodologie",
         8: "Adaptabilité",
         9: "Communication",
