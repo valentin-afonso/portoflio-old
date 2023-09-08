@@ -9,7 +9,10 @@ export default function Projects() {
       <div className='container'>
       <div id='customized-cursor'>Découvrir</div>
       <h2>Mes projets</h2>
-      <p className='text_intro'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+      <p className='text_intro'>
+      Pendant mes années d'études et au cours de mon expérience professionnelle, 
+      j'ai eu l'occasion de mener à bien plusieurs projets de développement. <br />
+      Découvrez mes projets !</p>
       <ProjectsGallery />
       </div>
       <Link to="/projets" className='link'>

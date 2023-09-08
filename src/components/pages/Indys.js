@@ -56,20 +56,18 @@ export default function Indys() {
               <img src={Mokup3} alt="" className={`img_mockup ${activeIndex === 2 ? 'js-active' : ''}`} />
             </div>
             <div className='section_2'>
-                <h2>Déplacez-vous &nbsp;à plusieurs</h2>
+                <h2>Améliorer l<span className='fligen'>'</span>accessibilité web pour les personnes Dys &nbsp;</h2>
                 <div className='content_left'>
-                    <h3>Réjoignez des points de rassemblement</h3>
-                    <p><strong>SWALKERS</strong> propose des trajets communs en fonction de la destination 
-                    des utilisateurs. Ces derniers peuvent rejoindre l'un des points de rassemblement suggérés 
-                    et effectuer leur trajet ensemble.</p>
+                    <h3>Améliorer la compréhension de la lecture en ligne</h3>
+                    <p> <strong>Indys</strong> vise à faciliter la lecture en ligne pour les personnes dyslexiques. 
+                        Cette extension web offre des outils pour améliorer la compréhension des pages web que 
+                        l'utilisateur visite.</p>
                 </div>
                 <div className='content_right'>
-                    <h3>Un groupe de confiance</h3>
-                    <p>Pour garantir la sécurité de chacun, tous les utilisateurs ont préalablement fourni 
-                        certaines de leurs données personnelles comme leurs cartes d'identité. Ainsi, 
-                        si un problème survient au sein d’un groupe, il sera plus facile d’identifier et de 
-                        sanctionner les utilisateurs malveillants. Pour les Femmes, SWALKERS propose également 
-                        de créer des groupes avec des utilisateurs du même sexe.</p>
+                    <h3>Faciliter l'expression écrite </h3>
+                    <p> <strong>Indys</strong> s'efforce d'améliorer l'expression écrite des personnes dyslexiques. Grâce à cette extension, 
+                        les utilisateurs bénéficient d'outils conçus pour les aider à mieux s'exprimer à l'écrit, 
+                        éliminant ainsi les obstacles potentiels dans leur parcours professionnel.</p>
                 </div>
             </div>
             <div className='section_3'>

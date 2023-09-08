@@ -185,7 +185,7 @@ h2 {
 }
 h2 .fligen {
   font-family: 'Fligen';
-  font-size: 4.2rem;
+  font-size: 3rem;
 }
 .interne h2 {
   font-size: 1.4rem;
@@ -228,4 +228,23 @@ h3 {
 .interne {
   padding-top: 4rem;
   min-height: 100vh;
+}
+.hilight {
+  position: relative;
+  display: inline-block;
+  padding: 0px 8px;
+  font-weight: 600;
+  z-index: 1;
+}
+.hilight::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--tertiary-color);
+  opacity: .85;
+  transform: rotate(357deg);
+  z-index: -1;
 }

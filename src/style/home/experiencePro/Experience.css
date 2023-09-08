@@ -111,7 +111,7 @@
 .experience_card .progress ul {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50%;
+    max-width: 25rem;
 }
 .experience_card .progress ul li {
     margin-right: 10px;

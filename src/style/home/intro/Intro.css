@@ -25,3 +25,7 @@
     max-width: 26rem;
     margin-left: auto;
 }
+
+.intro .card .content_text p:first-child {
+    margin-bottom: 1rem;
+}

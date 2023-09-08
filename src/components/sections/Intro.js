@@ -13,14 +13,16 @@ export default function Intro() {
                 </figure>
                 <div className='content_text'>
                     <p>
-                        Valentin Afonso <br /> 
+                        <strong>Valentin Afonso</strong> <br /> 
                         23 ans <br /> 
                         Master en Développement Web<br /> 
-                        Mon domaine de spécialisation est principalement orienté vers le front-end, 
+                    </p>
+                    <p>
+                        Mon domaine de spécialisation est principalement orienté vers le <span className='hilight'>front-end</span>, 
                         mais je suis ouvert à explorer d'autres aspects du développement web, comme le back-end, 
                         l'UX/UI, et bien plus encore.<br /> 
                         En ce moment, je suis particulièrement motivé à approfondir mes 
-                        connaissances en React, un framework qui m'attire beaucoup.
+                        connaissances en <span className='hilight'>React</span>, un framework qui m'attire beaucoup.
                     </p>
                 </div>
             </div>
